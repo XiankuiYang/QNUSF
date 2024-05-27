@@ -1,0 +1,12 @@
+name: QNUSF
+title: QNUSF
+username:
+account: xiankuiyangstatistics
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10195138
+bundleId: 8665523
+url: https://xiankuiyangstatistics.shinyapps.io/QNUSF/
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: QNUSF user guide.docx|RSM 3D.csv|Suggestions for Shiny App 102423.docx
