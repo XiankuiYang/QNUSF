@@ -8,4 +8,17 @@ the memory usage to 1 GB. It is hard to use the online app to generate designs w
 The following section will show you how to use it in R.
 
 **2. How to use our app in R**
+
+  Please read the following codes to access the local Shiny App.
+
+# Install ‘devtools’ package and access this package.
+install.packages("devtools")
+library(devtools)
+
+# Install local Shiny app through GitHub
+install_github("XiankuiYang/QNUSF")
+
+#  Access app
+QNUSF::app()
+
    
