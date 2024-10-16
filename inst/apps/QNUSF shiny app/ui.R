@@ -15,7 +15,7 @@ ui <- fluidPage(
       strong(tags$hr(style="border-top: 2px solid #000000;")),
       h3(strong("Download Demonstration Materials:"), style = "font-family:'arial';font-size:11pt"),
       downloadButton("User_Guide",label = "User Guide",style = "width:260px;"),
-      selectInput("download", "Select data to download", choices = c("RSM 2D 1", "RSM 2D 2", "RSM 2D Irregular Area","RSM 3D", 
+      selectInput("download", "Select data to download", choices = c("RSM 2D 1", "RSM 2D 2", "RSM 2D Irregular Area","RSM 3D",
                                                                      "Mixture 3D", "Mixture 4D","Carbon Capture 4D")),
       downloadButton("downloadData"),
       br(),
@@ -69,15 +69,15 @@ ui <- fluidPage(
                    style = "font-family:'arial';font-size:11pt"),
                  h2(strong("Notes:",
                            style = "font-family:'arial';font-size:16pt")),
-                 img(src='Data example.png',align = "right",height="20%", width="20%"),
-                 p("1. The uploaded data file must be a .CSV file. Meanwhile, the format must match the right example. 
-                   The last column must be for the weights. After you upload a data file, please enter the number of columns 
+                 img(src='Data example A.png',align = "right",height="20%", width="20%"),
+                 p("1. The uploaded data file must be a .CSV file. Meanwhile, the format must match the right example.
+                   The last column must be for the weights. After you upload a data file, please enter the number of columns
                    for the input variables. Generally, the number columns in the file should be (dimension of input space) + 1 (for weights).",
                    style = "font-family:'arial';font-size:11pt"),
                  p("2. To start with new data, please click the 'Refresh' button to reset the environment.",
                    style = "font-family:'arial';font-size:11pt"),
-                 p("3. For 1-D, 2-D & 3-D RSM, and 3-D & 4-D mixture examples, the visualization given is a contour plot. 
-                   For 3-D RSM and 4-D mixture examples, the visualization is a sliced plot. For cases other than those listed, 
+                 p("3. For 1-D, 2-D & 3-D RSM, and 3-D & 4-D mixture examples, the visualization given is a contour plot.
+                   For 3-D RSM and 4-D mixture examples, the visualization is a sliced plot. For cases other than those listed,
                    only the created design is provided (with no visualization).",
                    style = "font-family:'arial';font-size:11pt"),
                  em("For more details, please see User Guide (on left).",
